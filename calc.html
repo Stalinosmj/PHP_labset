@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>  
+
+<body style="background-color:powderblue">  
+<form method="POST" action="add.php">  
+Enter First Number:  
+<input type="number" name="number1" /><br><br>  
+Enter Second Number:  
+<input type="number" name="number2" /><br><br>
+
+Select the Operator :
+<br>
+
+<!--
+<input type="radio" id="+" name="op" value=+>
+<label for="+"> + Addition </label><br>
+<input type="radio" id="-" name="op" value=->
+<label for="-"> - Subtration </label><br>
+<input type="radio" id="*" name="op" value=*>
+<label for="*"> * Multiplication </label><br>
+<input type="radio" id="/" name="op" value=/>
+<label for="/"> / Division </label><br>
+-->
+<div style="width:600px;" class="custom-select">
+<br>
+<select name="op" id="op">
+<option value='+'>+ Addition</option>  
+<option value='-'>- Subtration</option>  
+<option value='*'>* Multiplication</option>  
+<option value='/'>/ Division</option> 
+</div>
+
+
+<div>
+<br>
+<input  type="submit" name="calculate" value="Calculate">  
+</div>
+
+
+
+
+
+</body>  
+</html>  
